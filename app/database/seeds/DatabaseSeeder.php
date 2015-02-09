@@ -8,7 +8,9 @@ class DatabaseSeeder extends Seeder {
 	private $tables = [
 		'lessons',
 		'tags',
-		'lesson_tag'
+		'lesson_tag',
+		'owners',
+		'contacts'
 
 	];
 	/**
@@ -26,6 +28,9 @@ class DatabaseSeeder extends Seeder {
 		$this->call('LessonsTableSeeder');
 		$this->call('TagsTableSeeder');
 		$this->call('LessonTagTableSeeder');
+		$this->call('OwnersTableSeeder');
+		$this->call('ContactsTableSeeder');
+
 	}
 
 	private function cleanDatabase()

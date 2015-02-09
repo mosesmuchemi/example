@@ -7,7 +7,11 @@
 	"require": {
 	  "laravel/framework": "4.2.*",
 	  "way/generators": "~2.0",
-	  "phpunit/phpunit": "3.7.*"
+	  "phpunit/phpunit": "3.7.*",
+	  "dingo/api": "0.8.*",
+	  "lucadegasperi/oauth2-server-laravel": "3.*",
+	  "cartalyst/sentry": "2.1.*"
+
 	},
 	"autoload": {
 		"classmap": [
