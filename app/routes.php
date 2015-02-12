@@ -27,7 +27,7 @@ Route::group(['prefix' => 'api/v1'],function()
 });
 
 
-Route::group(array('prefix' => 'api/v1'), function()
+Route::group(['prefix' => 'api/v1'], function()
 {
 	Route::resource('contacts', 'ContactsController');
 	Route::delete('contacts/{id}/restore', 'ContactsController@restore');
